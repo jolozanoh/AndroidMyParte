@@ -11,11 +11,11 @@
     <string name="title_activity_add_vehiculo">AddVehiculo</string>
 
 
-    <string name="atras">CANCELAR</string>
-    <string name="add">AÑADIR</string>
-    <string name="save">GUARDAR</string>
-    <string name="delete">ELIMINAR</string>
-    <string name="update">MODIFICICAR</string>
+    <string name="atras">CANCEL</string>
+    <string name="add">ADD</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
 
 
     <string name="portada">Mi Perfil</string>
