@@ -1,0 +1,227 @@
+<resources>
+
+
+    <string name="app_name">myParte</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_mi_perfil">MiPerfil</string>
+    <string name="title_activity_add_usuario">AddUsuario</string>
+    <string name="title_activity_vehiculos">VehiculosActivity</string>
+    <string name="title_activity_add_vehiculo">AddVehiculo</string>
+
+
+    <string name="atras">CANCELAR</string>
+    <string name="add">AÑADIR</string>
+    <string name="save">GUARDAR</string>
+    <string name="delete">ELIMINAR</string>
+    <string name="update">MODIFICICAR</string>
+
+
+    <string name="portada">Mi Perfil</string>
+
+
+    <string name="vehiculoss">Vehiculos</string>
+    <string name="aseguradorass">ASEGURADORAS</string>
+
+
+    <string name="borrar">Borrar</string>
+    <string name="fotografia">Fotografia</string>
+    <string name="foto">foto</string>
+    <string name="usuarios">Usuarios</string>
+
+
+    <string name="fotografias">Fotografias</string>
+    <string name="generales">Generales</string>
+    <string name="vehiculoA">Vehiculo A</string>
+    <string name="vehiculoB">Vehiculo B</string>
+    <string name="terminar">Terminar</string>
+    <string name="firma">firma</string>
+    <string name="parte">Parte</string>
+
+
+    <string name="vehiculo_eliminar_mensaje">Pulse OK para confirmarlo.</string>
+    <string name="vehiculo_eliminar_confirmacion">El vehiculo ha sido eliminado.</string>
+
+    <string name="vehiculo_eliminar_titulo">¿Estas seguro de eliminarlo?</string>
+    <string name="vehiculo_editar_confirmacion">Vehiculo modificado correctamente</string>
+
+    <string name="vehiculo_crear_titulo">Alta Vehiculo</string>
+    <string name="vehiculo_editar_titulo">Editar Vehiculo</string>
+    <string name="title_activity_menu_vehiculos">Menu Vehiculos</string>
+
+    <string name="aseguradora_eliminar_mensaje">Pulse OK para confirmarlo.</string>
+    <string name="aseguradora_eliminar_confirmacion">La aseguradora ha sido eliminada.</string>
+
+    <string name="aseguradora_eliminar_titulo">¿Estas seguro de eliminarlo?</string>
+    <string name="aseguradora_editar_confirmacion">Aseguradora modificada correctamente</string>
+
+    <string name="aseguradora_crear_titulo">Alta Aseguradora</string>
+    <string name="aseguradora_editar_titulo">Editar Aseguradora</string>
+    <string name="title_activity_menu_aseguradora">MenuAseguradoras</string>
+
+    <string name="testigo_eliminar_mensaje">Pulse OK para confirmarlo.</string>
+    <string name="testigo_eliminar_confirmacion">El testigo ha sido eliminado.</string>
+
+    <string name="testigo_eliminar_titulo">¿Estas seguro de eliminarlo?</string>
+    <string name="testigo_editar_confirmacion">Testigo modificado correctamente</string>
+
+    <string name="testigo_crear_titulo">Alta Testigo</string>
+    <string name="testigo_editar_titulo">Editar Testigo</string>
+    <string name="title_activity_menu_testigo">MenuTestigos</string>
+
+
+    <string name="usuario_eliminar_mensaje">Pulse OK para confirmarlo.</string>
+    <string name="usuario_eliminar_confirmacion">El usuario ha sido eliminado.</string>
+
+    <string name="usuario_eliminar_titulo">¿Estas seguro de eliminarlo?</string>
+    <string name="usuario_editar_confirmacion">Usuario modificado correctamente</string>
+
+    <string name="usuario_crear_titulo">Alta Usuario</string>
+    <string name="usuario_editar_titulo">Editar Usuario</string>
+    <string name="title_activity_menu_usuario">MenuUsuarios</string>
+
+
+    <string name="cancelar">Cancelar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="vehiculos">Vehiculos</string>
+    <string name="aseguradoras">Aseguradoras</string>
+    <string name="title_activity_menu_parte">Menu Parte</string>
+    <string name="title_activity_menu_datos">Menu Datos</string>
+
+
+    <string name="label_matricula">Matricula</string>
+    <string name="label_marca">Marca</string>
+    <string name="label_modelo">Modelo</string>
+
+    <string name="label_asesor">Asesor</string>
+    <string name="label_email">Email</string>
+    <string name="label_telefono">Telefono</string>
+
+
+    <string name="lista_vacia">Sin Datos</string>
+    <string name="vehiculo_crear_confirmacion">Vehiculo dado de Alta</string>
+    <string name="aseguradora_crear_confirmacion">Aseguradora dada de Alta</string>
+    <string name="testigo_crear_confirmacion">Testigo dado de Alta</string>
+    <string name="usuario_crear_confirmacion">Usuario dado de Alta</string>
+
+    <string name="menu_visualizar">Ver</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="menu_seleccionar">Seleccionar</string>
+    <string name="title_activity_add_aseguradora">Añadir Aseguradora</string>
+    <string name="title_activity_asegurdoras">Asegurdoras</string>
+    <string name="title_activity_localizacion">Localizacion</string>
+
+    <string name="title_activity_ubicacion">Localizacion</string>
+    <string name="title_activity_vehiculo">Vehiculo A</string>
+    <string name="title_activity_usuario">Usuario</string>
+    <string name="title_activity_tomar_fotografias">Fotografias</string>
+    <string name="title_activity_user_asegurado">Asegurado</string>
+    <string name="title_activity_tipo_vehiculo">Tipo Vehiculo</string>
+    <string name="title_activity_parte_aseguradora">Parte Aseguradora</string>
+    <string name="title_activity_parte_conductor">Parte Conductor</string>
+    <string name="title_activity_parte_impactos">Daños del Vehiculo</string>
+    <string name="usar_datos_usuario">Usar Datos Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="email">Email</string>
+    <string name="el_vehiculo_esta_aparcado">El vehiculo esta aparcado</string>
+    <string name="numero_chasis">Numero Chasis</string>
+    <string name="title_activity_circunstancias">Circunstancias</string>
+    <string name="estaba_estacionado_parado">Estaba estacionado/parado</string>
+    <string name="salia_de_un_estacionar_abriendo_puerta">Salia de un estacionar/abriendo puerta</string>
+    <string name="iba_a_estacionar">Iba a estacionar</string>
+    <string name="salia_de_un_aparcamiento_de_un_lugar_privado_o_a_un_camino_de_tierra">Salia de un aparcamiento, de un lugar privado o a un camino de tierra.</string>
+    <string name="entraba_a_una_plaza_de_sentido_giratorio">Entraba a una plaza de sentido giratorio</string>
+    <string name="circulaba_por_una_plaza_de_setido_giratorio">Circulaba por una plaza de setido giratorio</string>
+    <string name="colision_en_la_parte_de_atr_s_al_otro_veh_culo_que_circulaba_en_el_mismo_setido_y_en_el_mismo_carril">Colisionó en la parte de atrás al otro vehículo que circulaba en el mismo setido y en el mismo carril</string>
+    <string name="circulaba_en_el_mismo_sentido_y_en_carril_dirferente">Circulaba en el mismo sentido y en carril dirferente</string>
+    <string name="cambiaba_de_carril">Cambiaba de carril</string>
+    <string name="adelantaba">Adelantaba</string>
+    <string name="giraba_a_la_derecha">Giraba a la derecha</string>
+    <string name="giraba_a_la_izquierda">Giraba a la izquierda</string>
+    <string name="daba_marcha_atr_s">Daba marcha atrás</string>
+    <string name="invadia_la_parte_reservada_a_la_circulaci_n_en_el_sentido_inverso">Invadia la parte reservada a la circulación en el sentido inverso</string>
+    <string name="venia_de_la_derecha_en_un_cruze">Venia de la derecha (en un cruze)</string>
+    <string name="no_respet_la_se_al_de_preferencia_o_semaforo_en_rojo">No respetó la señal de preferencia o semaforo en rojo</string>
+    <string name="title_activity_observaciones">Observaciones</string>
+    <string name="title_activity_emergencias">Emergencias</string>
+    <string name="title_activity_testigos">Testigos</string>
+    <string name="title_activity_add_testigos">Cirunstancias</string>
+    <string name="testigo">Testigo</string>
+    <string name="fotografia_cogida">"No se ha tomado ninguna foto."</string>
+    <string name="usar_usuario">Usar Datos Usuario</string>
+    <string name="remolque">Remolque</string>
+    <string name="remolquepregunta">¿Remolque?</string>
+    <string name="matricula_remoque">Matricula Remoque</string>
+    <string name="selecionar_un_vehiculo">Selecionar un Vehiculo</string>
+    <string name="seleccionar_aseguradora">Seleccionar Aseguradora</string>
+    <string name="nombre_compa_ia">Nombre Compañia</string>
+    <string name="compa_ia">Compañia</string>
+    <string name="general">General</string>
+    <string name="neumaticos">NEUMATICOS</string>
+    <string name="otros">OTROS</string>
+    <string name="title_activity_direccion">Mapa</string>
+    <string name="title_activity_direccion_accidente">Direccion Accidente</string>
+    <string name="mapa">Mapa</string>
+    <string name="localizacion">Localizacion</string>
+    <string name="general1">General</string>
+    <string name="fecha">Fecha</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="codigo_postal">Codigo Postal</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pais">Pais</string>
+    <string name="num_atestado">Num. Atestado</string>
+    <string name="victimas_o_heridos_leves">Victimas o Heridos Leves</string>
+    <string name="da_os_materiales">Daños Materiales</string>
+    <string name="vehiculos_distintos_a_y_b">Vehiculos distintos A y B</string>
+    <string name="objetos_distintos_al_vehiculo">Objetos distintos al vehiculo</string>
+    <string name="testigos">Testigos</string>
+    <string name="testigos1">Testigos ?</string>
+    <string name="localizacion1">Localizacion</string>
+    <string name="testigo_nombre">Testigo Nombre</string>
+    <string name="testigo_telefono">Testigo Telefono</string>
+    <string name="title_activity_generar_pdf">Enviar Email</string>
+
+
+    <string name="valida_nombre">Nombre en blanco.</string>
+    <string name="valida_email">Email en blanco.</string>
+    <string name="valida_email_correcto">Email no es correcto.</string>
+    <string name="valida_telefono">Telefono en blanco.</string>
+
+    <string name="valida_matricula">Matricula en blanco.</string>
+    <string name="valida_marca">Marca en blanco.</string>
+    <string name="valida_modelo">Modelo en blanco.</string>
+    <string name="valida_matricula_remolque">Matricula remolque en blanco.</string>
+
+    <string name="asegurado">Asegurado</string>
+    <string name="vehiculo">Vehiculo</string>
+    <string name="aseguradora">Aseguradora</string>
+    <string name="conductor">Conductor</string>
+
+    <string name="sendemail">ENVIAR EMAIL</string>
+
+    <string name="texto_email">Adjuntamos la declaración amistosa de accidentes.</string>
+    <string name="asusnto_email">Declaracion amistosa de accidentes</string>
+    <string name="error_email">No se encuentra la aplicacion de correo</string>
+    <string name="error_email_fichero">No encuentra el fichero pdf.</string>
+    <string name="title_activity_list_partes_pdf">ListPartesPdf</string>
+    <string name="nuevo_parte">NUEVO PARTE</string>
+    <string name="reenviar_partes">REENVIAR PARTES</string>
+    <string name="reenviar_partes1">Reenviar Partes</string>
+    <string name="vehiculos1">Vehiculos</string>
+    <string name="menu_datos">Menu Datos</string>
+    <string name="emergencias1">Emergencias</string>
+    <string name="aseguradoras1">Aseguradoras</string>
+    <string name="nombre1">Nombre</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+
+
+    <string name="emergencias">Emergencias</string>
+    <string name="partes">Partes</string>
+
+
+    <string name="title_activity_aseguradoras">Aseguradoras</string>
+</resources>

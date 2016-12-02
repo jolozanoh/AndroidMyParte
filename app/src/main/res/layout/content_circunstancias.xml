@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.myparte.parte.parte0.Circunstancias"
+    tools:showIn="@layout/activity_circunstancias"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/estaba_estacionado_parado"
+                android:id="@+id/sw00"
+                android:layout_gravity="center_horizontal"
+                android:background="#bbdff9"
+                android:textColor="#000000"
+                android:checked="false" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/salia_de_un_estacionar_abriendo_puerta"
+                android:id="@+id/sw01"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fefefe"
+                android:checked="false" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/iba_a_estacionar"
+                android:id="@+id/sw02"
+                android:layout_gravity="center_horizontal"
+                android:background="#bbdff9"
+                android:textColor="#000000"
+                android:checked="false" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/salia_de_un_aparcamiento_de_un_lugar_privado_o_a_un_camino_de_tierra"
+                android:id="@+id/sw03"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fefefe"
+                android:checked="false" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/entraba_a_una_plaza_de_sentido_giratorio"
+                android:id="@+id/sw04"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/circulaba_por_una_plaza_de_setido_giratorio"
+                android:id="@+id/sw05"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/colision_en_la_parte_de_atr_s_al_otro_veh_culo_que_circulaba_en_el_mismo_setido_y_en_el_mismo_carril"
+                android:id="@+id/sw06"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/circulaba_en_el_mismo_sentido_y_en_carril_dirferente"
+                android:id="@+id/sw07"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/cambiaba_de_carril"
+                android:id="@+id/sw08"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/adelantaba"
+                android:id="@+id/sw09"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/giraba_a_la_derecha"
+                android:id="@+id/sw10"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/giraba_a_la_izquierda"
+                android:id="@+id/sw11"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/daba_marcha_atr_s"
+                android:id="@+id/sw12"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/invadia_la_parte_reservada_a_la_circulaci_n_en_el_sentido_inverso"
+                android:id="@+id/sw13"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/venia_de_la_derecha_en_un_cruze"
+                android:id="@+id/sw14"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:background="#bbdff9" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/no_respet_la_se_al_de_preferencia_o_semaforo_en_rojo"
+                android:id="@+id/sw15"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fefefe" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.myparte.parte.parte0.DireccionAccidente"
+    tools:showIn="@layout/activity_direccion_accidente"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentEnd="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/localizacion"
+                    android:id="@+id/btLocalizacion"
+                    android:textStyle="bold"
+                    android:textColor="#fefefe"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/general1"
+                    android:textColor="#fefefe"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/latitud"
+                        android:textSize="15sp"
+                        android:textColor="#fefefe"
+                        android:layout_weight="0.06"
+                        android:layout_gravity="center_vertical" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etLatitud"
+                        android:textSize="15sp"
+                        android:textColor="#fefefe"
+                        android:layout_weight="0.45"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:editable="true"
+                        android:enabled="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/longitud"
+                        android:textSize="15sp"
+                        android:textColor="#fefefe"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/etLongitud"
+                        android:textSize="15sp"
+                        android:textColor="#fefefe"
+                        android:layout_weight="0.45"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:editable="false"
+                        android:enabled="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/fecha"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="datetime"
+                        android:ems="10"
+                        android:id="@+id/etFecha"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:enabled="false"
+                        android:editable="true"
+                        android:layout_gravity="top" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/direcci_n"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/etDireccion"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:enabled="false"
+                        android:editable="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/codigo_postal"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp"
+                        android:textIsSelectable="true" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/etCp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:enabled="false"
+                        android:editable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/ciudad"
+                        android:id="@+id/textView8"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/etCiudad"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:enabled="false"
+                        android:editable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/pais"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/etPais"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:enabled="false"
+                        android:editable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/num_atestado"
+                        android:textColor="#fefefe"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/etAtestado"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fefefe"
+                        android:textStyle="bold"
+                        android:layout_weight="0.86" />
+                </LinearLayout>
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/victimas_o_heridos_leves"
+                    android:id="@+id/swHeridos"
+                    android:checked="false"
+                    android:textColor="#fefefe"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/da_os_materiales"
+                    android:textColor="#fefefe"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vehiculos_distintos_a_y_b"
+                    android:id="@+id/swDistintosAB"
+                    android:checked="false"
+                    android:textColor="#fefefe"
+                    android:textSize="15sp" />
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/objetos_distintos_al_vehiculo"
+                    android:id="@+id/swObjetosA"
+                    android:checked="false"
+                    android:textColor="#fefefe"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/testigos"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fefefe"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/testigos1"
+                    android:id="@+id/swTestigos"
+                    android:checked="false"
+                    android:textColor="#fefefe"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/llTestigoNombre">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/testigo_nombre"
+                    android:id="@+id/tvTestigo"
+                    android:textColor="#fefefe"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etTestigoNombre"
+                    android:textColor="#fefefe"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:weightSum="1"
+                android:id="@+id/llTestigoTelefono">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/testigo_telefono"
+                    android:textColor="#fefefe"
+                    android:id="@+id/tvTestigoTelefono"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/etTestigoTelefono"
+                    android:textColor="#fefefe"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.90" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

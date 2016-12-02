@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wparte.Main">
+    <item
+        android:id="@+id/atras"
+        android:orderInCategory="100"
+        android:title="@string/atras"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        app:showAsAction="never" />
+</menu>

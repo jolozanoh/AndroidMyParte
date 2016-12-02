@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.myparte">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".emergencias.Emergencias"
+            android:label="@string/title_activity_emergencias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.MiPerfil"
+            android:label="@string/title_activity_mi_perfil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.vehiculo.AddVehiculo"
+            android:label="@string/title_activity_add_vehiculo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.vehiculo.VehiculosActivity"
+            android:label="@string/title_activity_vehiculos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.usuario.AddUsuario"
+            android:label="@string/title_activity_add_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.aseguradora.AddAseguradora"
+            android:label="@string/title_activity_add_aseguradora"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".miPerfil.aseguradora.AseguradorasActivity"
+            android:label="@string/title_activity_aseguradoras"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.MenuParte"
+            android:label="@string/title_activity_menu_parte"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.MenuDatos"
+            android:label="@string/title_activity_menu_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.parte0.Circunstancias"
+            android:label="@string/title_activity_circunstancias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.parte0.DireccionAccidente"
+            android:label="@string/title_activity_direccion_accidente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.parte0.ParteImpactos"
+            android:label="@string/title_activity_parte_impactos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parte.parte0.TomarFotografias"
+            android:label="@string/title_activity_tomar_fotografias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pdf.GenerarPDF"
+            android:label="@string/title_activity_generar_pdf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pdf.ListPartesPdf"
+            android:label="@string/title_activity_list_partes_pdf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".parte.parte0.Ubicacion"
+            android:label="@string/title_activity_localizacion"/>
+    </application>
+
+</manifest>
